@@ -30,5 +30,7 @@ const massage = "hello";
 const trimm = "     Hi      ";
 console.log(massage[0]);
 console.log(massage.length);
-console.log(massage.toUpperCase());
+// console.log(massage.toUpperCase());
 console.log(trimm.trim().toUpperCase());
+const replaceMassage = massage.replace("h", "H");
+console.log(replaceMassage);

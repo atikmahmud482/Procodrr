@@ -23,3 +23,12 @@
 // const alertResult = alert("Are you sure?")
 
 // const userInput = prompt("Please enter your name.");
+
+/* video 10 */
+"hello world"[1];
+const massage = "hello";
+const trimm = "     Hi      ";
+console.log(massage[0]);
+console.log(massage.length);
+console.log(massage.toUpperCase());
+console.log(trimm.trim().toUpperCase());

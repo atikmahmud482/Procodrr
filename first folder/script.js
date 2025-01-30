@@ -35,9 +35,15 @@ console.log(trimm.trim().toUpperCase());
 const replaceMassage = massage.replace("h", "H");
 console.log(replaceMassage);
  */
-/* Video 11 */
+/* Video 11 and 12 
 console.log(Boolean("")); //false
 console.log(Boolean(undefined)); //false
 console.log(Boolean(null)); //false
 console.log(Boolean(-0)); //falsy
 console.log(Boolean(!0)); //true
+*/
+/* Video 13 
+const number1 = 23;
+const number2 = 34;
+console.log(number1 > number1);
+*/

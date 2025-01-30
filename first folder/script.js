@@ -24,7 +24,7 @@
 
 // const userInput = prompt("Please enter your name.");
 
-/* video 10 */
+/* video 10
 "hello world"[1];
 const massage = "hello";
 const trimm = "     Hi      ";
@@ -34,3 +34,4 @@ console.log(massage.length);
 console.log(trimm.trim().toUpperCase());
 const replaceMassage = massage.replace("h", "H");
 console.log(replaceMassage);
+ */

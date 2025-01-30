@@ -35,3 +35,6 @@ console.log(trimm.trim().toUpperCase());
 const replaceMassage = massage.replace("h", "H");
 console.log(replaceMassage);
  */
+/* Video 11 */
+console.log(Boolean("")); //false
+console.log(Boolean(undefined));

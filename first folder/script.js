@@ -39,3 +39,5 @@ console.log(replaceMassage);
 console.log(Boolean("")); //false
 console.log(Boolean(undefined)); //false
 console.log(Boolean(null)); //false
+console.log(Boolean(-0)); //falsy
+console.log(Boolean(!0)); //true

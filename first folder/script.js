@@ -37,4 +37,5 @@ console.log(replaceMassage);
  */
 /* Video 11 */
 console.log(Boolean("")); //false
-console.log(Boolean(undefined));
+console.log(Boolean(undefined)); //false
+console.log(Boolean(null)); //false

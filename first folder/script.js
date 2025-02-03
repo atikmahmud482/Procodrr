@@ -36,7 +36,7 @@ const replaceMassage = massage.replace("h", "H");
 console.log(replaceMassage);
  */
 
-/* Video 11 and 12 
+/* Video 11 and video 12 
 console.log(Boolean("")); //false
 console.log(Boolean(undefined)); //false
 console.log(Boolean(null)); //false
@@ -70,7 +70,7 @@ const andResult5 = "Hello" && console.log("hello1");
 const orResult5 = undefined || console.log("hello2");
 */
 
-/* *Video 15 16 start */
+/* *Video 15  video 16 start */
 
 // const userName = prompt("Please Enter Your Name.") || "ProCoderr";
 // const userAge = prompt("Please Enter Your Age");
@@ -105,7 +105,7 @@ const orResult5 = undefined || console.log("hello2");
 /* Video 17 
 
 */
-/* Video 18 */
+/* Video 18 
 // const dayNumber = 3;
 
 // if (dayNumber === 0) {
@@ -169,3 +169,18 @@ switch (grade) {
 }
 
 // console.log("Program Ended!");
+*/
+/* Video 19 start */
+// const userName = 5 > 2 ? "Atik" : "Procodrr";
+
+// const gender = "F";
+
+// const useMassage = `${
+//   gender.toLowerCase() === "f" ? "She" : "He"
+// } is Collage Student`;
+// console.log(useMassage);
+
+// const result = 0 ? "atik" : "Mahmud";
+// console.log(result);
+
+/* Video End */

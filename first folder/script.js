@@ -75,11 +75,22 @@ const orResult5 = undefined || console.log("hello2");
 /* *Video 15 end */
 const userName = prompt("Please Enter Your Name.");
 const userAge = prompt("Please Enter Your Age");
+const genderInput = prompt("Please Enter your Gender(He or She).");
 
 console.log(`Name: ${userName}`);
 console.log(`Age: ${userAge}`);
+console.log(`Gender: ${genderInput}`);
 
-if (userAge >= 21 && userAge <= 27) {
-  console.log("user is a working job");
+if (userAge >= 18 && userAge <= 24) {
+  console.log(`${userName} is a varsity student`);
+  console.log(`And ${genderInput} is learning computer science.`);
 }
-console.log("Program Ended!!");
+if (userAge >= 25 && userAge <= 45) {
+  console.log(`${userName}User is a working professional.`);
+  console.log(`And ${genderInput}is a web developer.`);
+}
+
+if (userAge > 45) {
+  console.log(`${userName} is retired`);
+  console.log(`And ${genderInput} reads a newspaper.`);
+}

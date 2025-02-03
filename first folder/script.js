@@ -70,36 +70,35 @@ const andResult5 = "Hello" && console.log("hello1");
 const orResult5 = undefined || console.log("hello2");
 */
 
-/* *Video 15 start */
+/* *Video 15 16 start */
 
-/* *Video 15 end */
-const userName = prompt("Please Enter Your Name.");
-const userAge = prompt("Please Enter Your Age");
-const genderInput = prompt("Please Enter your Gender(He or She).");
+// const userName = prompt("Please Enter Your Name.") || "ProCoderr";
+// const userAge = prompt("Please Enter Your Age");
+// const genderInput = prompt("Please Enter your Gender(He or She).");
 
-console.log(`Name: ${userName}`);
-console.log(`Age: ${userAge}`);
-console.log(`Gender: ${genderInput}`);
+// console.log(`Name: ${userName}`);
+// console.log(`Age: ${userAge}`);
+// console.log(`Gender: ${genderInput}`);
 
-if (userAge >= 0 && userAge <= 4) {
-  console.log(`${userName} is a kid.`);
-  console.log(`And ${genderInput} is playing Game.`);
-}
-if (userAge >= 5 && userAge <= 17) {
-  console.log(`${userName} is a School Student.`);
-  console.log(`And ${genderInput} is Learning Science & Math.`);
-}
-
-if (userAge >= 18 && userAge <= 24) {
-  console.log(`${userName} is a varsity student`);
-  console.log(`And ${genderInput} is learning computer science.`);
-}
-if (userAge >= 25 && userAge <= 45) {
-  console.log(`${userName}User is a working professional.`);
-  console.log(`And ${genderInput}is a web developer.`);
-}
-
-if (userAge > 45) {
-  console.log(`${userName} is retired`);
-  console.log(`And ${genderInput} reads a newspaper.`);
-}
+// if (userAge >= 0 && userAge <= 4) {
+//   console.log(`${userName} is a kid.`);
+//   console.log(`And ${genderInput} is playing Game.`);
+// } else if (userAge >= 5 && userAge <= 17) {
+//   console.log(`${userName} is a School Student.`);
+//   console.log(`And ${genderInput} is Learning Science & Math.`);
+// } else if (userAge >= 18 && userAge <= 24) {
+//   console.log(`${userName} is a varsity student`);
+//   console.log(`And ${genderInput} is learning computer science.`);
+// } else if (userAge >= 25 && userAge <= 45) {
+//   console.log(`${userName}User is a working professional.`);
+//   console.log(`And ${genderInput}is a web developer.`);
+// } else if (userAge > 45 && userAge < 101) {
+//   console.log(`${userName} is retired`);
+//   console.log(`And ${genderInput} reads a newspaper.`);
+// } else if (userAge >= 101) {
+//   console.log(`${userName} is ghost`);
+//   console.log(`And ${genderInput} reads a ghost newspaper.`);
+// } else if (userAge < 0) {
+//   console.log("Please Enter Valid Age.");
+// }
+/* *Video 15 16 end */

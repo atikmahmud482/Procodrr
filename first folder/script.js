@@ -102,3 +102,7 @@ const orResult5 = undefined || console.log("hello2");
 //   console.log("Please Enter Valid Age.");
 // }
 /* *Video 15 16 end */
+/* Video 17 
+
+*/
+/* Video 18 */

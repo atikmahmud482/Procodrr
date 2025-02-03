@@ -81,6 +81,15 @@ console.log(`Name: ${userName}`);
 console.log(`Age: ${userAge}`);
 console.log(`Gender: ${genderInput}`);
 
+if (userAge >= 0 && userAge <= 4) {
+  console.log(`${userName} is a kid.`);
+  console.log(`And ${genderInput} is playing Game.`);
+}
+if (userAge >= 5 && userAge <= 17) {
+  console.log(`${userName} is a School Student.`);
+  console.log(`And ${genderInput} is Learning Science & Math.`);
+}
+
 if (userAge >= 18 && userAge <= 24) {
   console.log(`${userName} is a varsity student`);
   console.log(`And ${genderInput} is learning computer science.`);

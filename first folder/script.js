@@ -106,22 +106,66 @@ const orResult5 = undefined || console.log("hello2");
 
 */
 /* Video 18 */
-const dayNumber = 3;
+// const dayNumber = 3;
 
-if (dayNumber === 0) {
-  console.log("It is Sunday Today");
-} else if (dayNumber === 1) {
-  console.log("It is Monday Today");
-} else if (dayNumber === 2) {
-  console.log("It is Tuesday Today");
-} else if (dayNumber === 3) {
-  console.log("It is Wednesday Today");
-} else if (dayNumber === 4) {
-  console.log("It is Thursday Today");
-} else if (dayNumber === 5) {
-  console.log("It is Friday Today");
-} else if (dayNumber === 6) {
-  console.log("It is Saturday Today");
-} else {
-  console.log("Please Enter a Valid Day Number");
+// if (dayNumber === 0) {
+//   console.log("It is Sunday Today");
+// } else if (dayNumber === 1) {
+//   console.log("It is Monday Today");
+// } else if (dayNumber === 2) {
+//   console.log("It is Tuesday Today");
+// } else if (dayNumber === 3) {
+//   console.log("It is Wednesday Today");
+// } else if (dayNumber === 4) {
+//   console.log("It is Thursday Today");
+// } else if (dayNumber === 5) {
+//   console.log("It is Friday Today");
+// } else if (dayNumber === 6) {
+//   console.log("It is Saturday Today");
+// } else {
+//   console.log("Please Enter a Valid Day Number");
+// }
+// const dayNumber = 3;
+// switch (dayNumber) {
+//   case 0:
+//     console.log("It is sunday Today");
+//     break;
+//   case 1:
+//     console.log("It is Monday today");
+//     break;
+//   case 2:
+//     console.log("It is Tuesday Today");
+//     break;
+//   case 3:
+//     console.log("It is Thursday Today");
+//     break;
+//   case 4:
+//     console.log("It is Friday today");
+//     break;
+//   case 5:
+//     console.log("It is Saturday Today");
+//     break;
+// }
+
+// console.log("Program Ended!");
+
+const grade = "1";
+
+switch (grade) {
+  case "A":
+    console.log("Your Score is Between  85% to 100%.");
+    break;
+  case "1":
+    console.log("Your Score is Between  76% to 84%.");
+    break;
+  case "C":
+    console.log("Your Score is Between  60% to 75%.");
+    break;
+  case "D":
+    console.log("Your Score is Between  50% to 59%.");
+    break;
+  default:
+    console.log("Sorry, You Failed");
 }
+
+// console.log("Program Ended!");

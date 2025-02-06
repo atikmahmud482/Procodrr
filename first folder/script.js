@@ -184,3 +184,11 @@ switch (grade) {
 // console.log(result);
 
 /* Video End */
+
+/* Video 20 start */
+// const firstName = "Atik";
+// const age = 15;
+// const isGraduate = false;
+// const lastName = "Mahmud";
+// const birthYear = 2000;
+/* Video end */

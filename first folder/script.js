@@ -192,3 +192,13 @@ switch (grade) {
 // const lastName = "Mahmud";
 // const birthYear = 2000;
 /* Video end */
+
+/* Video 21 start 
+const user = {
+  firstName: "Atik",
+  lastName: "Mahmud",
+  age: 26,
+  education: 12,
+  city: "Dhaka",
+};
+*/

@@ -79,7 +79,23 @@
       <p>
         SQL (Structured Query Language) is a standard language used to create,
         manage, and manipulate relational databases. It allows users to
-        retrieve, insert, update, and delete data stored in a database.
+        retrieve, insert, update, and delete data stored in a database. <br />
+        SELECT * FROM employees;
+      </p>
+      <h1>What is the difference between DELETE, TRUNCATE, and DROP?</h1>
+      <p>
+        DELETE FROM employees WHERE department = 'Sales'; -- Deletes specific
+        rows <br />
+        TRUNCATE TABLE employees; -- Removes all rows but keeps table structure
+        <br />
+        DROP TABLE employees; -- Deletes table permanently
+      </p>
+      <h1>What are Primary Key and Foreign Key?</h1>
+      <p>
+        Primary Key: A column (or a combination of columns) that uniquely
+        identifies each row in a table. <br />
+        Foreign Key: A column in one table that refers to the Primary Key in
+        another table to maintain relationships between tables.
       </p>
     </div>
     <script src="/InterView Preparation/index.js"></script>

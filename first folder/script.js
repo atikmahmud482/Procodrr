@@ -221,3 +221,7 @@ const user = {
 
 let userName = "Atik";
 */
+
+/* Video 23 Start */
+const fruits = ["Apple", "Mango", "Banana"];
+console.log(typeof fruits);

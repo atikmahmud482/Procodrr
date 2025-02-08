@@ -202,3 +202,22 @@ const user = {
   city: "Dhaka",
 };
 */
+/* Video 22 start 
+const user = {
+  firstName: "Atik",
+  lastName: "Mahmud",
+  pata: {
+    city: "Bangalore",
+    pinCode: 84849,
+    state: "dhaka",
+    moreDetails: {
+      population: 94978493948,
+      area: "848 sq km",
+    },
+  },
+  age: 15,
+  isGraduate: false,
+};
+
+let userName = "Atik";
+*/

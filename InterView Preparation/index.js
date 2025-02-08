@@ -24,9 +24,3 @@ function fetchData() {
 
   return <div>{JSON.stringify(data)}</div>;
 }
-
-const [data, setData] = useState(foodItems)
-
-function filter (catagories) {
-    if
-}

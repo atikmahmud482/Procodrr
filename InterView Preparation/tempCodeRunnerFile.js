@@ -73,11 +73,11 @@ const orResult5 = undefined || console.log("hello2");
 /* *Video 15 start */
 
 /* *Video 15 end */
-const userName = "Atik";
-const userAge = 28;
+// const userName = "Atik";
+// const userAge = 28;
 
-console.log(`Name: ${userName}`);
-console.log(`Age: ${userAge}`);
+// console.log(`Name: ${userName}`);
+// console.log(`Age: ${userAge}`);
 
-if (userAge >= 21 && userAge <= 27) console.log("user is a working job");
-console.log("Program Ended!!");
+// if (userAge >= 21 && userAge <= 27) console.log("user is a working job");
+// console.log("Program Ended!!");

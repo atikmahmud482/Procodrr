@@ -227,4 +227,7 @@ const fruits = ["Apple", "Mango", "Banana", { name: "Atik" }];
 fruits[2] = "mango";
 
 fruits[3] = "water melon";
+fruits.push("orange");
 console.log(fruits);
+
+const rainBow = ["red", "green"];

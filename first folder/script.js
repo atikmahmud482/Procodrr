@@ -222,12 +222,15 @@ const user = {
 let userName = "Atik";
 */
 
-/* Video 23 Start */
+/* Video 23 Start 
 const fruits = ["Apple", "Mango", "Banana", { name: "Atik" }];
 fruits[2] = "mango";
 
 fruits[3] = "water melon";
-fruits.push("orange");
+fruits.push("orange"); //add
+fruits.pop(); // remove element fromm array.
+
 console.log(fruits);
 
 const rainBow = ["red", "green"];
+*/

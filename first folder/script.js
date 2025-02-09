@@ -235,13 +235,13 @@ console.log(fruits);
 const rainBow = ["red", "green"];
 */
 /* Video 24 */
-const evenNumber = [2, 4, 6, 8, 10];
-// console.log(evenNumber.shift());
-// console.log(evenNumber.unshift());
-const animals = ["Dog", "cat", "cow"];
-const oddNumber = [1, 3, 5, 7, 9];
+// const evenNumber = [2, 4, 6, 8, 10];
+// // console.log(evenNumber.shift());
+// // console.log(evenNumber.unshift());
+// const animals = ["Dog", "cat", "cow"];
+// const oddNumber = [1, 3, 5, 7, 9];
 
-// console.log((addArray1 = evenNumber.concat(animals, oddNumber)));
-i = 3;
-const valid = i >= 15 && i <= 34 ? "pass" : "fail";
-console.log(valid);
+// // console.log((addArray1 = evenNumber.concat(animals, oddNumber)));
+// i = 3;
+// const valid = i >= 15 && i <= 34 ? "pass" : "fail";
+// console.log(valid);

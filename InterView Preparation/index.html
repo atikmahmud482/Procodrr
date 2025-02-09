@@ -149,6 +149,21 @@
         <br />
         greet("Atik", afterGreeting);
       </p>
+      <h1>
+        What is the difference between synchronous and asynchronous JavaScript?
+      </h1>
+      <p>
+        Synchronous: Code runs line by line. <br />
+        console.log("First"); <br />
+        console.log("Second"); <br />
+        Output: "First", "Second" <br />
+        Asynchronous: Code runs in the background (e.g., API calls, setTimeout).
+        <br />
+        console.log("First"); <br />
+        setTimeout(() => console.log("Second"), 2000); <br />
+        console.log("Third"); <br />
+        ➡ Output: "First", "Third", "Second" (after 2 seconds)
+      </p>
     </div>
     <script src="/InterView Preparation/index.js"></script>
   </body>
